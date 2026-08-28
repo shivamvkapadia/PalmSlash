@@ -13,7 +13,7 @@ fingertips become blades, and fruit falling down the screen get sliced by swipin
 them in the air. Runs entirely client-side in the browser — no server, no accounts, no
 data leaves the machine.
 
-- **Live:** https://shivam-kapadia.github.io/PalmSlash/ (GitHub Pages, served from `main`)
+- **Live:** https://shivamvkapadia.github.io/PalmSlash/ (GitHub Pages, served from `main`)
 - **Current version:** v1.1 — two-handed play, power slices, pinch precision, difficulty ramp
 - **License:** MIT ([LICENSE](LICENSE))
 

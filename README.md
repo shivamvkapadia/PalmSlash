@@ -56,6 +56,19 @@ buttons that clunk down when you press them — all plain CSS, no images. The fr
 un-blurred shadows and stepped animations on purpose, so the chrome costs the browser
 almost nothing and every cycle stays where it matters: the hand tracking.
 
+## Run it locally
+
+`getUserMedia` is blocked on `file://`, so double-clicking `index.html` gives you a black
+screen and no tracking. Serve it over localhost instead:
+
+```bash
+git clone https://github.com/shivamvkapadia/PalmSlash.git
+cd PalmSlash
+python -m http.server 8000
+```
+
+Then open http://localhost:8000 and allow the camera.
+
 ## Heads up
 
 - It's a webcam toy, so the experience depends on your camera, lighting, and machine. On a decent laptop it runs smooth; on something older it might chug a little (two hands is heavier than one).
